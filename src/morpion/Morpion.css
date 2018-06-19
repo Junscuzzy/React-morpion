@@ -14,35 +14,7 @@
     font-size: 28px;
 }
 
-.Morpion__canvas {
-    height: 50vh;
+.Morpion__box {
+    min-height: 50vh;
     width: 50vh;
-
-    border: 5px solid white;
-
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.Morpion__canvas .case {
-    font-family: 'Indie Flower', cursive;
-    font-size: 5rem;
-
-    width: calc(1 / 3 * 100% - 10px);
-    height: calc(1 / 3 * 100% - 10px);
-
-    border: 5px solid white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Morpion__status {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Morpion__reload {
-    width: 35px;
 }
