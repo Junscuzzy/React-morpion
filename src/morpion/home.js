@@ -8,7 +8,6 @@ class Home extends Component {
     }
 
     update = (e) => {
-        console.log(e.target.value);
         this.props.onUpdate(e.target.value);
         this.setState({fieldVal: e.target.value});
     };
